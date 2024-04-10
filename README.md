@@ -8,6 +8,7 @@ Open the workbook and right click on "View Code" on any sheet
 Go to the "data" Module and change the following line to the file path of your database workbook:
 **wbFullName = "C:\Users\data.xlsx"**
 
+Buttons to get data are in "Helper" sheet 
 I can also provide a custom made form to add data to the file, please contact me.
 
 The code is open for anyone to use as long as you don't try to sell it.
