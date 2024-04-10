@@ -1,6 +1,7 @@
 # Excel-Database
 Code to Open and Get data from another file that can be used as an excel database
 This code assumes you have a "data" file somewhere in your system where the information is saved.
+The data file can be in any format, however it assumes you keep the headers equal in main and data file.
 
 **First use setup**:
 Open the workbook and right click on "View Code" on any sheet
