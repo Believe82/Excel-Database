@@ -7,4 +7,4 @@ Open the workbook and right click on "View Code" on any sheet
 Go to the "data" Module and change the following line to the file path of your database workbook:
 **wbFullName = "C:\Users\data.xlsx"**
 
-I can also provide custom made form to add data to the file, please contact me.
+I can also provide a custom made form to add data to the file, please contact me.
