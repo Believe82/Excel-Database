@@ -8,3 +8,6 @@ Go to the "data" Module and change the following line to the file path of your d
 **wbFullName = "C:\Users\data.xlsx"**
 
 I can also provide a custom made form to add data to the file, please contact me.
+
+The code is open for anyone to use as long as you don't try to sell it.
+Also if you have any questions or comments let me know.
