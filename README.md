@@ -8,6 +8,11 @@ Open the workbook and right click on "View Code" on any sheet
 Go to the "data" Module and change the following line to the file path of your database workbook:
 **wbFullName = "C:\Users\data.xlsx"**
 
+**Setting up a password for the workbook and making it Read Only:**
+Go into the **Variables_Functions** Module and cahnge the Password there to whateever you desire.
+In the **Data** Module uncomment any lines that are related to Passwords
+
+
 Buttons to get data are in "Helper" sheet 
 I can also provide a custom made form to add data to the file, please contact me.
 
