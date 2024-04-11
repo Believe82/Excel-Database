@@ -12,7 +12,7 @@ open_wb_onedrive
 Set CopyWs = openwb.Worksheets("data")
 
 'Set the sheet you would like to paste into:
-Set PasteWs = ThisWorkbook.Worksheets("Sheet 1")
+Set PasteWs = ThisWorkbook.Worksheets("Main")
 
 'clear contents of the paste area to make copy easier
 PasteWs.Range("A1:AA100000").ClearContents
@@ -20,7 +20,10 @@ PasteWs.Range("A1:AA100000").ClearContents
 Application.ScreenUpdating = False
 
 With CopyWs
-
+    
+    'Uncomment the following if you are using Passwords:
+    '.Unprotect Password:=pass
+    
     'Finds the last Row and last Coloumn of our data
     LastRow = .Cells(Rows.Count, 1).End(xlUp).Row
     LastColumn = .Cells(1, Columns.Count).End(xlToLeft).Column
@@ -30,7 +33,10 @@ With CopyWs
     PasteWs.Activate
     PasteWs.Range("A1").Select
     PasteWs.Paste
-
+    
+    'Uncomment the following if you are using Passwords:
+    '.Protect Password:=pass
+    
 End With
 
 'closes the data workbook and saves
@@ -39,4 +45,6 @@ openwb.Close
 objLogExcel.Quit
 
 Application.ScreenUpdating = True
+
 End Sub
+
