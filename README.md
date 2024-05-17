@@ -9,7 +9,7 @@ Go to the "data" Module and change the following line to the file path of your d
 **wbFullName = "C:\Users\data.xlsx"**
 
 **Setting up a password for the workbook and making it Read Only:**
-Go into the **Variables_Functions** Module and cahnge the Password there to whateever you desire.
+Go into the **Variables_Functions** Module and change the Password there to whateever you desire.
 In the **Data** Module uncomment any lines that are related to Passwords
 
 
